@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<input>
+	<playerup>
+		<key>w</key>
+		<type>2</type>
+	</playerup>
+	<playerdown>
+		<key>s</key>
+		<type>2</type>
+	</playerdown>
+	<playerleft>
+		<key>a</key>
+		<type>2</type>
+	</playerleft>
+	<playerright>
+		<key>d</key>
+		<type>2</type>
+	</playerright>
+	<attack1>
+		<key>e</key>
+		<type>0</type>
+	</attack1>
+	<drop>
+		<key>r</key>
+		<type>0</type>
+	</drop>
+	<weaponmenu>
+		<key>q</key>
+		<type>0</type>
+	</weaponmenu>
+	<inventorymenu>
+		<key>i</key>
+		<type>0</type>
+	</inventorymenu>
+</input>

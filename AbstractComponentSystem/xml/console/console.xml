@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<commands>
+  <summon>
+    <args1>3
+      <strings>1</strings>
+      <ints>2</ints>
+    </args1>
+    <args2>1
+      <strings>1</strings>
+    </args2>
+  </summon>
+  <extendmap>
+    <args>2
+      <strings>1</strings>
+      <ints>1</ints>
+    </args>
+  </extendmap>
+  <addcomponent>
+    <args1>2
+      <strings>1</strings>
+      <ints>1</ints>
+    </args1>
+  </addcomponent>
+  <removecomponent>
+    <args1>2
+      <strings>1</strings>
+      <ints>1</ints>
+    </args1>
+  </removecomponent>
+  <noclip>0
+    <args>0</args>
+  </noclip>
+  <invalidcommand>0
+    <args>0</args>
+  </invalidcommand>
+  <changemap>
+    <args1>1
+      <strings>1</strings>
+    </args1>
+  </changemap>
+  <setvolume>
+	<args1>1
+		<floats>1</floats>
+	</args1>
+  </setvolume>
+  <playsound>
+	<args1>1
+		<strings>1</strings>
+	</args1>
+  </playsound>
+  <togglesoundlog>0
+	<args>0</args>
+  </togglesoundlog>
+  <removeentity>
+    <args1>1
+      <ints>1,</ints>
+    </args1>
+  </removeentity>
+  <saveloc>
+	<args1>1
+		<ints>1</ints>
+	</args1>
+</saveloc>
+  <savelocintiles>
+	<args1>1
+		<ints>1</ints>
+	</args1>
+</savelocintiles>
+<getloc>
+	<args1>1
+		<ints>1</ints>
+	</args1>
+</getloc>
+<getlocintiles>
+	<args1>1
+		<ints>1</ints>
+	</args1>
+</getlocintiles>
+<linkportal>
+	<args1>4
+		<strings>1</strings>
+		<ints>1</ints>
+		<floats>2</floats>
+	</args1>
+</linkportal>
+</commands>

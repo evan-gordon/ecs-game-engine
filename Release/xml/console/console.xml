@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<commands>
+	<summon>
+		<args1>3
+			<strings>1</strings>
+			<ints>2</ints>
+		</args1>
+		<args2>1
+			<strings>1</strings>
+		</args2>
+	</summon>
+  <extendmap>
+    <args>2
+      <strings>1</strings>
+      <ints>1</ints>
+    </args>
+  </extendmap>
+  <addcomponent>
+    <args1>
+      <strings>1</strings>
+      <ints>1</ints>
+    </args1>
+  </addcomponent>
+  <removecomponent>
+    <args1>
+      <strings>1</strings>
+      <ints>1</ints>
+    </args1>
+  </removecomponent>
+  <noclip>
+	<args>0</args>
+  </noclip>
+</commands>

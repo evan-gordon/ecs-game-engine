@@ -1,0 +1,655 @@
+﻿Build started 8/31/2016 6:50:36 PM.
+     1>Project "C:\Users\evan g\Documents\Visual Studio 2012\Projects\AbstractComponentSystem\AbstractComponentSystem\AbstractComponentSystem.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\SFML\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt systems\s_Sounds.cpp gameStates\GameState.cpp g_Functions.cpp gameStates\IsState.cpp Main.cpp gameStates\MainMenuState.cpp gameStates\MapCreatorState.cpp gameStates\MapSelectState.cpp gameStates\SettingsState.cpp gameStates\StateStack.cpp systems\SystemManager.cpp systems\s_EntityFactory.cpp systems\s_Input.cpp systems\s_Map.cpp systems\s_Physics.cpp systems\s_TileChanger.cpp systems\s_UIGraphics.cpp ui\UIConsole.cpp ui\UIPlayerInventory.cpp ui\UIPlayerMenu.cpp ui\ui_Button.cpp
+         s_Sounds.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Sounds.h(18): error C2864: 's_Sounds::MAX_SOUNDS' : only static const integral data members can be initialized within a class
+     1>systems\s_Sounds.cpp(5): error C2758: 's_Sounds::MAX_SOUNDS' : must be initialized in constructor base/member initializer list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Sounds.h(18) : see declaration of 's_Sounds::MAX_SOUNDS'
+     1>systems\s_Sounds.cpp(48): warning C4018: '<=' : signed/unsigned mismatch
+         GameState.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(27): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(27): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(41): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(41): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Input.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Input.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(19): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(19): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_TileChanger.h(19): error C2079: 'c_TileChanger::tile' uses undefined struct 'Tile'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerMenu.h(30): error C3203: 'Tile' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerMenu.h(30): error C2955: 'Tile' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\ui\../systems/components/Tile.h(11) : see declaration of 'Tile'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Sounds.h(18): error C2864: 's_Sounds::MAX_SOUNDS' : only static const integral data members can be initialized within a class
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(29): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(29): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(36): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(36): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_AI.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_AI.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_AI.h(13): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_AI.h(13): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_portal.h(13): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_portal.h(13): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Name.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Name.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(57): error C2079: 'SystemManager::gameMap' uses undefined class 's_Map'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(58): error C2079: 'SystemManager::worldObjectManager' uses undefined class 's_WorldObject'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(62): error C2079: 'SystemManager::actionManager' uses undefined class 's_Action'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(63): error C2079: 'SystemManager::graphicsManager' uses undefined class 's_Graphics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\GameState.h(16): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\GameState.h(16): error C2504: 'IsState' : base class undefined
+     1>gameStates\GameState.cpp(7): error C2614: 'GameState' : illegal member initialization: 'IsState' is not a base or member
+     1>gameStates\GameState.cpp(11): error C2065: 'window' : undeclared identifier
+     1>gameStates\GameState.cpp(11): error C2227: left of '->setMouseCursorVisible' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+         g_Functions.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>g_Functions.cpp(43): error C2065: 't' : undeclared identifier
+     1>g_Functions.cpp(44): error C2065: 't' : undeclared identifier
+         IsState.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>gameStates\IsState.cpp(6): error C2039: '{ctor}' : is not a member of 'IsState'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>gameStates\IsState.cpp(6): error C2146: syntax error : missing ')' before identifier 'window'
+     1>gameStates\IsState.cpp(6): error C2146: syntax error : missing ';' before identifier 'window'
+     1>gameStates\IsState.cpp(6): error C2146: syntax error : missing ';' before identifier 'gameEvent'
+     1>gameStates\IsState.cpp(6): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Main.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(27): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(27): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(41): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(41): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Input.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Input.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(19): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(19): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_TileChanger.h(19): error C2079: 'c_TileChanger::tile' uses undefined struct 'Tile'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerMenu.h(30): error C3203: 'Tile' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerMenu.h(30): error C2955: 'Tile' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\ui\../systems/components/Tile.h(11) : see declaration of 'Tile'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Sounds.h(18): error C2864: 's_Sounds::MAX_SOUNDS' : only static const integral data members can be initialized within a class
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(29): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(29): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(36): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(36): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_AI.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_AI.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_AI.h(13): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_AI.h(13): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_portal.h(13): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_portal.h(13): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Name.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Name.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(57): error C2079: 'SystemManager::gameMap' uses undefined class 's_Map'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(58): error C2079: 'SystemManager::worldObjectManager' uses undefined class 's_WorldObject'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(62): error C2079: 'SystemManager::actionManager' uses undefined class 's_Action'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(63): error C2079: 'SystemManager::graphicsManager' uses undefined class 's_Graphics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\GameState.h(16): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\GameState.h(16): error C2504: 'IsState' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapSelectState.h(17): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapSelectState.h(17): error C2504: 'IsState' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapCreatorState.h(20): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapCreatorState.h(20): error C2504: 'IsState' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\SettingsState.h(17): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\SettingsState.h(17): error C2504: 'IsState' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gameStates/StateStack.h(31): error C3203: 'IsState' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gameStates/StateStack.h(31): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gameStates/StateStack.h(31): error C3203: 'shared_ptr' : unspecialized class template can't be used as a template argument for template parameter '_Ty2', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gameStates/StateStack.h(31): error C2955: 'std::shared_ptr' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\memory(474) : see declaration of 'std::shared_ptr'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gameStates/StateStack.h(31): error C3203: 'pair' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gameStates/StateStack.h(31): error C2955: 'std::pair' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(78) : see declaration of 'std::pair'
+         MainMenuState.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>gameStates\MainMenuState.cpp(5): error C2039: '{ctor}' : is not a member of 'MainMenuState'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MainMenuState.h(15) : see declaration of 'MainMenuState'
+     1>gameStates\MainMenuState.cpp(5): error C2146: syntax error : missing ')' before identifier 'window'
+     1>gameStates\MainMenuState.cpp(5): error C2146: syntax error : missing ';' before identifier 'window'
+     1>gameStates\MainMenuState.cpp(5): error C2146: syntax error : missing ';' before identifier 'gameEvent'
+     1>gameStates\MainMenuState.cpp(5): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         MapCreatorState.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>gameStates\MapCreatorState.cpp(5): error C2039: '{ctor}' : is not a member of 'MapCreatorState'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapCreatorState.h(19) : see declaration of 'MapCreatorState'
+     1>gameStates\MapCreatorState.cpp(5): error C2146: syntax error : missing ')' before identifier 'window'
+     1>gameStates\MapCreatorState.cpp(5): error C2146: syntax error : missing ';' before identifier 'window'
+     1>gameStates\MapCreatorState.cpp(5): error C2146: syntax error : missing ';' before identifier 'gameEvent'
+     1>gameStates\MapCreatorState.cpp(5): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         MapSelectState.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>gameStates\MapSelectState.cpp(5): error C2039: '{ctor}' : is not a member of 'MapSelectState'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapSelectState.h(16) : see declaration of 'MapSelectState'
+     1>gameStates\MapSelectState.cpp(5): error C2146: syntax error : missing ')' before identifier 'window'
+     1>gameStates\MapSelectState.cpp(5): error C2146: syntax error : missing ';' before identifier 'window'
+     1>gameStates\MapSelectState.cpp(5): error C2146: syntax error : missing ';' before identifier 'gameEvent'
+     1>gameStates\MapSelectState.cpp(5): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         SettingsState.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>gameStates\SettingsState.cpp(6): error C2039: '{ctor}' : is not a member of 'SettingsState'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\SettingsState.h(16) : see declaration of 'SettingsState'
+     1>gameStates\SettingsState.cpp(6): error C2146: syntax error : missing ')' before identifier 'window'
+     1>gameStates\SettingsState.cpp(6): error C2146: syntax error : missing ';' before identifier 'window'
+     1>gameStates\SettingsState.cpp(6): error C2146: syntax error : missing ';' before identifier 'gameEvent'
+     1>gameStates\SettingsState.cpp(6): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         StateStack.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(27): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(27): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(41): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(41): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Input.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Input.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(19): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(19): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_TileChanger.h(19): error C2079: 'c_TileChanger::tile' uses undefined struct 'Tile'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerMenu.h(30): error C3203: 'Tile' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerMenu.h(30): error C2955: 'Tile' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\ui\../systems/components/Tile.h(11) : see declaration of 'Tile'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Sounds.h(18): error C2864: 's_Sounds::MAX_SOUNDS' : only static const integral data members can be initialized within a class
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(29): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(29): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(36): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(36): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_AI.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_AI.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_AI.h(13): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_AI.h(13): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_portal.h(13): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_portal.h(13): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Name.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Name.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(57): error C2079: 'SystemManager::gameMap' uses undefined class 's_Map'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(58): error C2079: 'SystemManager::worldObjectManager' uses undefined class 's_WorldObject'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(62): error C2079: 'SystemManager::actionManager' uses undefined class 's_Action'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\../systems/SystemManager.h(63): error C2079: 'SystemManager::graphicsManager' uses undefined class 's_Graphics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\GameState.h(16): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\GameState.h(16): error C2504: 'IsState' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapSelectState.h(17): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapSelectState.h(17): error C2504: 'IsState' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapCreatorState.h(20): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\MapCreatorState.h(20): error C2504: 'IsState' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\SettingsState.h(17): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\SettingsState.h(17): error C2504: 'IsState' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\StateStack.h(31): error C3203: 'IsState' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\StateStack.h(31): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\StateStack.h(31): error C3203: 'shared_ptr' : unspecialized class template can't be used as a template argument for template parameter '_Ty2', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\StateStack.h(31): error C2955: 'std::shared_ptr' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\memory(474) : see declaration of 'std::shared_ptr'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\StateStack.h(31): error C3203: 'pair' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\StateStack.h(31): error C2955: 'std::pair' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(78) : see declaration of 'std::pair'
+     1>gameStates\StateStack.cpp(29): error C3203: 'IsState' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>gameStates\StateStack.cpp(29): error C2955: 'IsState' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\gamestates\IsState.h(14) : see declaration of 'IsState'
+     1>gameStates\StateStack.cpp(29): error C2955: 'std::shared_ptr' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\memory(474) : see declaration of 'std::shared_ptr'
+     1>gameStates\StateStack.cpp(29): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         SystemManager.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Sounds.h(18): error C2864: 's_Sounds::MAX_SOUNDS' : only static const integral data members can be initialized within a class
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\SystemManager.h(57): error C2079: 'SystemManager::gameMap' uses undefined class 's_Map'
+     1>systems\SystemManager.cpp(14): error C2359: 'SystemManager::gameMap' : member of non-class type requires single initializer expression
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\SystemManager.h(57) : see declaration of 'SystemManager::gameMap'
+     1>systems\SystemManager.cpp(14): error C2664: 's_Physics::s_Physics(s_WorldObject &,s_Graphics &,s_Action &,s_Map &,sf::Time &)' : cannot convert parameter 4 from 'int' to 's_Map &'
+     1>systems\SystemManager.cpp(14): error C2664: 's_UIGraphics::s_UIGraphics(sf::View &,std::shared_ptr<_Ty>,std::shared_ptr<sf::Font>,s_Map &,s_TileChanger &,s_Inventory &,CManager &)' : cannot convert parameter 4 from 'int' to 's_Map &'
+                 with
+                 [
+                     _Ty=sf::RenderWindow
+                 ]
+     1>systems\SystemManager.cpp(14): error C2664: 's_TileChanger::s_TileChanger(s_Map &,s_WorldObject &)' : cannot convert parameter 1 from 'int' to 's_Map &'
+     1>systems\SystemManager.cpp(75): error C2228: left of '.readMap' must have class/struct/union
+                 type is 'int'
+     1>systems\SystemManager.cpp(136): error C2228: left of '.getMapName' must have class/struct/union
+                 type is 'int'
+     1>systems\SystemManager.cpp(140): error C2228: left of '.getMapName' must have class/struct/union
+                 type is 'int'
+     1>systems\SystemManager.cpp(142): error C2228: left of '.saveMap' must have class/struct/union
+                 type is 'int'
+     1>systems\SystemManager.cpp(191): error C2228: left of '.toggleNoclip' must have class/struct/union
+                 type is 'int'
+     1>systems\SystemManager.cpp(264): error C2228: left of '.update' must have class/struct/union
+                 type is 'int'
+         s_EntityFactory.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_LinkedPosition.h(20): error C3203: 'c_LinkedPosition' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_LinkedPosition.h(20): error C2955: 'c_LinkedPosition' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(10) : see declaration of 'c_LinkedPosition'
+     1>systems\s_EntityFactory.cpp(141): error C2027: use of undefined type 's_Physics'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(24) : see declaration of 's_Physics'
+     1>systems\s_EntityFactory.cpp(141): error C2228: left of '.readFromFile' must have class/struct/union
+     1>systems\s_EntityFactory.cpp(284): error C2027: use of undefined type 's_Physics'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(24) : see declaration of 's_Physics'
+     1>systems\s_EntityFactory.cpp(284): error C2228: left of '.components' must have class/struct/union
+     1>systems\s_EntityFactory.cpp(284): error C2228: left of '.find' must have class/struct/union
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(24) : see declaration of 's_Physics'
+     1>systems\s_EntityFactory.cpp(284): error C2228: left of '.end' must have class/struct/union
+     1>systems\s_EntityFactory.cpp(286): error C2027: use of undefined type 's_Physics'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(24) : see declaration of 's_Physics'
+     1>systems\s_EntityFactory.cpp(286): error C2228: left of '.savetoFile' must have class/struct/union
+     1>systems\s_EntityFactory.cpp(479): error C2027: use of undefined type 's_Physics'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Physics.h(24) : see declaration of 's_Physics'
+     1>systems\s_EntityFactory.cpp(479): error C2228: left of '.removeComponent' must have class/struct/union
+         s_Input.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(19): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(19): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/WorldObject_InsertionSort.h(15): error C3203: 'c_WorldObject' : unspecialized class template can't be used as a template argument for template parameter '_Ty2', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/WorldObject_InsertionSort.h(15): error C2955: 'c_WorldObject' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_WorldObject.h(9) : see declaration of 'c_WorldObject'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/WorldObject_InsertionSort.h(15): error C3203: 'pair' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/WorldObject_InsertionSort.h(15): error C2955: 'std::pair' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(78) : see declaration of 'std::pair'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Graphics.h(12): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Graphics.h(12): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_Colidable.h(9): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_Colidable.h(9): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_PresetName.h(11): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\c_PresetName.h(11): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Action.h(10): error C2955: 'Component' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components\Component.h(7) : see declaration of 'Component'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Action.h(10): error C2504: 'Component' : base class undefined
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Sounds.h(18): error C2864: 's_Sounds::MAX_SOUNDS' : only static const integral data members can be initialized within a class
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(28): error C3203: 'c_Input' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(28): error C2955: 'c_Input' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Input.h(10) : see declaration of 'c_Input'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(29): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(29): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(36): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(36): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(44): error C3203: 'c_Input' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Input.h(44): error C2955: 'c_Input' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Input.h(10) : see declaration of 'c_Input'
+     1>systems\s_Input.cpp(5): error C3203: 'c_Physics' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>systems\s_Input.cpp(5): error C2955: 'c_Physics' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Physics.h(10) : see declaration of 'c_Physics'
+     1>systems\s_Input.cpp(27): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(28): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(28): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(32): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(33): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(33): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(42): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(43): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(43): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(61): warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>systems\s_Input.cpp(63): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(64): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(64): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(68): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(69): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(69): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(78): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(78): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(87): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(87): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(96): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(96): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(105): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(105): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(125): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(126): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(126): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(139): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(140): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(140): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(145): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(145): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(150): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(150): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(155): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(155): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(160): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(160): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(171): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(172): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(172): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(182): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(182): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(188): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(188): error C2228: left of '.mouseInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(240): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(240): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(244): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(244): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(249): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(249): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(253): error C2228: left of '.eventType' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(253): error C2228: left of '.keyboardInput' must have class/struct/union
+                 type is 'int'
+     1>systems\s_Input.cpp(277): error C2079: 'newInput' uses undefined class 'c_Input'
+     1>systems\s_Input.cpp(277): error C2078: too many initializers
+     1>systems\s_Input.cpp(278): error C2664: 's_Input::addComponent' : cannot convert parameter 2 from 'int' to 'c_Input &'
+     1>systems\s_Input.cpp(282): error C2079: 'newInput' uses undefined class 'c_Input'
+     1>systems\s_Input.cpp(282): error C2078: too many initializers
+     1>systems\s_Input.cpp(283): error C2664: 's_Input::addComponent' : cannot convert parameter 2 from 'int' to 'c_Input &'
+     1>systems\s_Input.cpp(287): error C2079: 'newInput' uses undefined class 'c_Input'
+     1>systems\s_Input.cpp(287): error C2078: too many initializers
+     1>systems\s_Input.cpp(288): error C2664: 's_Input::addComponent' : cannot convert parameter 2 from 'int' to 'c_Input &'
+     1>systems\s_Input.cpp(295): error C3203: 'c_Input' : unspecialized class template can't be used as a template argument for template parameter '_Ty2', expected a real type
+     1>systems\s_Input.cpp(295): error C2955: 'c_Input' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_Input.h(10) : see declaration of 'c_Input'
+     1>systems\s_Input.cpp(295): error C2955: 'std::pair' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(78) : see declaration of 'std::pair'
+     1>systems\s_Input.cpp(295): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         s_Map.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>systems\s_Map.cpp(5): error C2039: '{ctor}' : is not a member of 's_Map'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Map.h(24) : see declaration of 's_Map'
+     1>systems\s_Map.cpp(5): error C2146: syntax error : missing ')' before identifier 'window'
+     1>systems\s_Map.cpp(5): error C2146: syntax error : missing ';' before identifier 'window'
+     1>systems\s_Map.cpp(5): error C2143: syntax error : missing ';' before '&'
+     1>systems\s_Map.cpp(5): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         s_Physics.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>systems\s_Physics.cpp(23): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>systems\s_Physics.cpp(60): error C2027: use of undefined type 's_Map'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Map.h(24) : see declaration of 's_Map'
+     1>systems\s_Physics.cpp(60): error C2228: left of '.checkForColision' must have class/struct/union
+         s_TileChanger.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>systems\s_TileChanger.cpp(6): error C2039: '{ctor}' : is not a member of 's_TileChanger'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_TileChanger.h(17) : see declaration of 's_TileChanger'
+     1>systems\s_TileChanger.cpp(6): error C2143: syntax error : missing ')' before '&'
+     1>systems\s_TileChanger.cpp(6): error C2143: syntax error : missing ';' before '&'
+     1>systems\s_TileChanger.cpp(6): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         s_UIGraphics.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_LinkedPosition.h(20): error C3203: 'c_LinkedPosition' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_LinkedPosition.h(20): error C2955: 'c_LinkedPosition' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(10) : see declaration of 'c_LinkedPosition'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_DroppedItems.h(21): error C3203: 'c_InventoryItem' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_DroppedItems.h(21): error C2955: 'c_InventoryItem' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(18) : see declaration of 'c_InventoryItem'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_Inventory.h(60): error C2079: 's_Inventory::health' uses undefined struct 'health_t'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerMenu.h(30): error C3203: 'Tile' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerMenu.h(30): error C2955: 'Tile' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\ui\../systems/components/Tile.h(11) : see declaration of 'Tile'
+     1>systems\s_UIGraphics.cpp(22): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>systems\s_UIGraphics.cpp(92): error C2079: 'temp' uses undefined class 'c_TileChanger'
+     1>systems\s_UIGraphics.cpp(97): error C2027: use of undefined type 'c_TileChanger'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_TileChanger.h(17) : see declaration of 'c_TileChanger'
+     1>systems\s_UIGraphics.cpp(97): error C2440: '=' : cannot convert from 'c_TileChanger' to 'int'
+                 Source or target has incomplete type
+     1>systems\s_UIGraphics.cpp(98): error C2027: use of undefined type 's_TileChanger'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\ui\../systems/s_TileChanger.h(17) : see declaration of 's_TileChanger'
+     1>systems\s_UIGraphics.cpp(98): error C2228: left of '.changeTile' must have class/struct/union
+     1>systems\s_UIGraphics.cpp(106): error C2027: use of undefined type 'c_TileChanger'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_TileChanger.h(17) : see declaration of 'c_TileChanger'
+     1>systems\s_UIGraphics.cpp(146): error C2039: 'make_unique' : is not a member of 'util'
+     1>systems\s_UIGraphics.cpp(146): error C2065: 'make_unique' : undeclared identifier
+     1>systems\s_UIGraphics.cpp(146): error C2275: 'UIPlayerMenu' : illegal use of this type as an expression
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerMenu.h(19) : see declaration of 'UIPlayerMenu'
+     1>systems\s_UIGraphics.cpp(152): error C2039: 'make_unique' : is not a member of 'util'
+     1>systems\s_UIGraphics.cpp(152): error C2065: 'make_unique' : undeclared identifier
+     1>systems\s_UIGraphics.cpp(152): error C2275: 'UIPlayerInventory' : illegal use of this type as an expression
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../ui/UIPlayerInventory.h(21) : see declaration of 'UIPlayerInventory'
+         UIConsole.cpp
+     1>ui\UIConsole.cpp(10): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>ui\UIConsole.cpp(10): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>ui\UIConsole.cpp(44): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>ui\UIConsole.cpp(47): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ui\UIConsole.cpp(72): error C2039: 'setFillColor' : is not a member of 'sf::Text'
+                 C:\Program Files (x86)\SFML\include\SFML/Graphics/Text.hpp(48) : see declaration of 'sf::Text'
+     1>ui\UIConsole.cpp(78): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>ui\UIConsole.cpp(90): error C2039: 'setFillColor' : is not a member of 'sf::Text'
+                 C:\Program Files (x86)\SFML\include\SFML/Graphics/Text.hpp(48) : see declaration of 'sf::Text'
+     1>ui\UIConsole.cpp(94): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>ui\UIConsole.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>ui\UIConsole.cpp(108): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>ui\UIConsole.cpp(108): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>ui\UIConsole.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+     1>ui\UIConsole.cpp(132): warning C4018: '<' : signed/unsigned mismatch
+     1>ui\UIConsole.cpp(149): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ui\UIConsole.cpp(149): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>ui\UIConsole.cpp(153): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ui\UIConsole.cpp(184): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ui\UIConsole.cpp(186): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+         UIPlayerInventory.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_LinkedPosition.h(20): error C3203: 'c_LinkedPosition' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_LinkedPosition.h(20): error C2955: 'c_LinkedPosition' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_LinkedPosition.h(10) : see declaration of 'c_LinkedPosition'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_DroppedItems.h(21): error C3203: 'c_InventoryItem' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\s_DroppedItems.h(21): error C2955: 'c_InventoryItem' : use of class template requires template argument list
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(18) : see declaration of 'c_InventoryItem'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\ui\../systems/s_Inventory.h(60): error C2079: 's_Inventory::health' uses undefined struct 'health_t'
+     1>ui\UIPlayerInventory.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>ui\UIPlayerInventory.cpp(114): error C2039: 'setFillColor' : is not a member of 'sf::Text'
+                 C:\Program Files (x86)\SFML\include\SFML/Graphics/Text.hpp(48) : see declaration of 'sf::Text'
+     1>ui\UIPlayerInventory.cpp(123): warning C4018: '>=' : signed/unsigned mismatch
+     1>ui\UIPlayerInventory.cpp(127): error C2027: use of undefined type 'c_InventoryItem'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(18) : see declaration of 'c_InventoryItem'
+     1>ui\UIPlayerInventory.cpp(127): error C2227: left of '->amount' must point to class/struct/union/generic type
+     1>ui\UIPlayerInventory.cpp(152): warning C4018: '>=' : signed/unsigned mismatch
+     1>ui\UIPlayerInventory.cpp(211): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ui\UIPlayerInventory.cpp(224): warning C4018: '<' : signed/unsigned mismatch
+     1>ui\UIPlayerInventory.cpp(225): error C2039: 'setFillColor' : is not a member of 'sf::Text'
+                 C:\Program Files (x86)\SFML\include\SFML/Graphics/Text.hpp(48) : see declaration of 'sf::Text'
+     1>ui\UIPlayerInventory.cpp(227): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ui\UIPlayerInventory.cpp(234): error C2079: 'status' uses undefined struct 'health_t'
+     1>ui\UIPlayerInventory.cpp(234): error C2027: use of undefined type 'health_t'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\ui\status.h(6) : see declaration of 'health_t'
+     1>ui\UIPlayerInventory.cpp(234): error C2440: 'initializing' : cannot convert from 'health_t' to 'int'
+                 Source or target has incomplete type
+     1>ui\UIPlayerInventory.cpp(236): error C2228: left of '.hp' must have class/struct/union
+                 type is 'int'
+     1>ui\UIPlayerInventory.cpp(236): error C2228: left of '.maxHp' must have class/struct/union
+                 type is 'int'
+     1>ui\UIPlayerInventory.cpp(247): error C2039: 'setFillColor' : is not a member of 'sf::Text'
+                 C:\Program Files (x86)\SFML\include\SFML/Graphics/Text.hpp(48) : see declaration of 'sf::Text'
+     1>ui\UIPlayerInventory.cpp(249): error C2228: left of '.hp' must have class/struct/union
+                 type is 'int'
+     1>ui\UIPlayerInventory.cpp(249): error C2228: left of '.maxHp' must have class/struct/union
+                 type is 'int'
+     1>ui\UIPlayerInventory.cpp(258): error C2027: use of undefined type 'c_InventoryItem'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\components/c_InventoryItem.h(18) : see declaration of 'c_InventoryItem'
+     1>ui\UIPlayerInventory.cpp(258): error C2227: left of '->type' must point to class/struct/union/generic type
+         UIPlayerMenu.cpp
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(40): error C2143: syntax error : missing ',' before '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2065: 'CONSTRUCTOR_ARGS' : undeclared identifier
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2988: unrecognizable template declaration/definition
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(41): error C2059: syntax error : '...'
+     1>c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\systems\../g_Functions.h(45): error C2143: syntax error : missing ';' before '}'
+     1>ui\UIPlayerMenu.cpp(5): error C2039: '{ctor}' : is not a member of 'UIPlayerMenu'
+                 c:\users\evan g\documents\visual studio 2012\projects\abstractcomponentsystem\abstractcomponentsystem\ui\UIPlayerMenu.h(19) : see declaration of 'UIPlayerMenu'
+     1>ui\UIPlayerMenu.cpp(5): error C2062: type 'unsigned int' unexpected
+     1>ui\UIPlayerMenu.cpp(5): error C2143: syntax error : missing ')' before ','
+     1>ui\UIPlayerMenu.cpp(5): error C2059: syntax error : ')'
+     1>ui\UIPlayerMenu.cpp(5): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Compiling...
+         ui_Button.cpp
+     1>ui\ui_Button.cpp(10): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>ui\ui_Button.cpp(25): error C2039: 'setFillColor' : is not a member of 'sf::Text'
+                 C:\Program Files (x86)\SFML\include\SFML/Graphics/Text.hpp(48) : see declaration of 'sf::Text'
+     1>Done Building Project "C:\Users\evan g\Documents\Visual Studio 2012\Projects\AbstractComponentSystem\AbstractComponentSystem\AbstractComponentSystem.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:10.01

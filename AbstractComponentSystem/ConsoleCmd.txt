@@ -1,0 +1,32 @@
+# This File is for Dev purposes 
+# It also provides basic information relating to how each command is to be used
+#
+# The Format is as follows:
+#	CommandName
+#		Arguments list,
+#			*Short Description*
+#		Repeat Args...
+
+-summon
+	string, int, int
+		*summons prefab of string name, at int x int location*
+	string
+		*summons prefab of string name at player location*
+-extendmap
+	string, int
+		*doesnt actually do anything yet, see broadcast func in SystemManager.cpp*
+-addcomponent
+	string, int
+		*doesnt actually do anything yet, see broadcast func in SystemManager.cpp*
+-removeComponent
+	string, int
+		*doesnt actually do anything yet, see broadcast func in SystemManager.cpp*
+-noclip
+	-none
+		*Toggles in game collision*
+-changemap
+	string
+		*if string is a valid mapname, changemap*
+-removeentity
+	int
+		*remove entity with given id number*

@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UIExitMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UIConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UIPlayerMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_Action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_Colidable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_InventoryItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_LinkedPosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_PresetName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_TileChanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_WorldObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_DroppedItems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_EntityFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_LinkedPosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_TargetEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_TileChanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_UIGraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_WorldObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\SystemManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\WorldObject_InsertionSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStates\GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStates\IsState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStates\MainMenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStates\MapCreatorState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStates\MapSelectState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStates\SettingsState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStates\StateStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Conversions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console\CManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console\Files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_Name.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Name.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_Portal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Portal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UIPlayerInventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console\EventLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Sounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_AI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\components\c_AI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\Locator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\Null_SoundService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\SoundDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\SoundService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Damager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Health.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\Sys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\s_Limb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UIInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\elements\BagItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\elements\BagItemLimb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\elements\BagItemNormal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\elements\Cursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pugixml.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g_Functions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\UIExitMenu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\UI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_Button.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\UIConsole.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\UIPlayerMenu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_Action.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_Colidable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_Graphics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_Input.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_InventoryItem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_LinkedPosition.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_Physics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_PresetName.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_TileChanger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\c_WorldObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\Component.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\Tile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_WorldObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_Action.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_DroppedItems.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_EntityFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_Graphics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_Input.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_Inventory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_LinkedPosition.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_Map.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_Physics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_TargetEntity.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_TileChanger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\s_UIGraphics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\SystemManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\components\WorldObject_InsertionSort.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStates\GameState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStates\IsState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStates\MainMenuState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStates\MapCreatorState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStates\MapSelectState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStates\SettingsState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStates\StateStack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Conversions.h" />
+    <ClInclude Include="console\Arguments.h" />
+    <ClInclude Include="console\CManager.h" />
+    <ClInclude Include="console\Console.h" />
+    <ClInclude Include="console\Files.h" />
+    <ClInclude Include="console\Parser.h" />
+    <ClInclude Include="systems\components\c_Name.h" />
+    <ClInclude Include="systems\s_Name.h" />
+    <ClInclude Include="systems\components\c_Portal.h" />
+    <ClInclude Include="systems\s_Portal.h" />
+    <ClInclude Include="ui\UIPlayerInventory.h" />
+    <ClInclude Include="console\EventLog.h" />
+    <ClInclude Include="systems\s_Sounds.h" />
+    <ClInclude Include="ui\status.h" />
+    <ClInclude Include="systems\s_AI.h" />
+    <ClInclude Include="systems\components\c_AI.h" />
+    <ClInclude Include="services\Locator.h" />
+    <ClInclude Include="services\AbsSoundService.h" />
+    <ClInclude Include="services\Null_SoundService.h" />
+    <ClInclude Include="services\SoundDecorator.h" />
+    <ClInclude Include="services\SoundService.h" />
+    <ClInclude Include="systems\components\SavedLocs.h" />
+    <ClInclude Include="systems\s_Health.h" />
+    <ClInclude Include="systems\components\c_Health.h" />
+    <ClInclude Include="systems\components\c_Damager.h" />
+    <ClInclude Include="systems\s_Damager.h" />
+    <ClInclude Include="systems\Sys.h" />
+    <ClInclude Include="systems\components\c_Limb.h" />
+    <ClInclude Include="systems\s_Limb.h" />
+    <ClInclude Include="ui\UIInfo.h" />
+    <ClInclude Include="ui\elements\BagItem.h" />
+    <ClInclude Include="ui\elements\BagItemLimb.h" />
+    <ClInclude Include="ui\elements\BagItemNormal.h" />
+    <ClInclude Include="ui\elements\LinkedElement.h" />
+    <ClInclude Include="ui\elements\Cursor.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\elements\TileItem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="xml\console\console.xml" />
+    <Xml Include="xml\console\consolereply.xml" />
+  </ItemGroup>
+</Project>
